@@ -1,15 +1,12 @@
-<?php 
-  include_once 'header.php';
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php
+echo "Hello World!";
 ?>
 
-<div class='welcome'>
-  <h1>Welcome to the Medical Clinic</h1>
-  <?php
-  if (isset($_SESSION["fname"])) {
-      echo '<p>Hello there, '.$_SESSION["fname"].'</p>';
-  }
-  ?>
-</div>
-<?php
-  include_once 'footer.php';
-?>
+</body>
+</html>
